@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Temperature Converter App:</h1>
+
+    <main>
+      <label>Select the unit you are entering:</label>
+      <select id="unit">
+        <option value="c">Celsius (°C)</option>
+        <option value="f">Fahrenheit (°F)</option>
+      </select>
+
+      <label>Enter Temperature:</label>
+      <input type="number" id="temperature" />
+
+      <h1 id="result"></h1>
+
+      <button onclick="convertTemp()">Convert</button>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
